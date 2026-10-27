@@ -1,0 +1,134 @@
+/* Body */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f4f8 */
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+/* Theme */
+.theme {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Search Section */
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+/* City Input */
+#cityInput {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Theme Button */
+#themeBtn {
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+}
+
+/* Search Button */
+#searchBtn {
+    background-color: blue;
+    color: white;
+}
+
+/* Weather Card */
+.weather-card {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: lightblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Error */
+.error {
+    color: red;
+    text-align: center;
+}
+
+
+.favorites-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Favorites Buttons */
+#favoritesBtn {
+    color: blueviolet;
+}
+
+#addFavoriteBtn {
+    background-color: rgb(225, 228, 23);
+}
+
+#clearFavoritesBtn {
+    color: brown;
+}
+
+/* Favorites List */
+#favoritesList {
+    width: 100%;
+    text-align: center;
+}
+
+/* Mobile Screen */
+@media (max-width: 400px) {
+    .search-section {
+        flex-direction: column;
+    }
+
+    #cityInput {
+        width: 100%;
+    }
+}
+
+.favBox{
+  /* text-align: center; */
+  /* padding: 20px; */
+  display: flex;
+  /* justify-content:space-between; */
+  
+}
+
+h1{
+  text-align: center;
+}
+
